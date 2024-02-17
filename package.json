@@ -1,0 +1,20 @@
+{
+	"name": "webpack_wsb",
+	"version": "1.0.0",
+	"description": "Zajecia 17.02.2024 wsb",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode=none",
+    "start:dev": "webpack-dev-server --mode=development"
+	},
+	"author": "Krystian Rycerz",
+	"license": "ISC",
+	"dependencies": {
+		"webpack": "^5.66.0"
+	},
+	"devDependencies": {
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.8.0"
+	}
+}
