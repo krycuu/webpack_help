@@ -1,6 +1,31 @@
-body {
-    background-color: red;
-    h1 {
-        color: blue;
+@import './variables.scss';
+@import './mixins.scss';
+
+.carousel {
+    background-color: $main-color;
+    padding: 20px;
+    &__title {
+        color:  $secondary-color;
+        font-size: $main-font-size;
     }
+    &__subtitle {
+        color: black;
+        font-size: $secondary-font-size;
+        box-shadow: $box-shadow;
+    }
+    &__link {
+        color: yellow;
+        &:hover {
+            color: green;
+        }
+    }
+
+}
+
+.btn1 {
+    @include button_design
+}
+
+.btn2 {
+    @include button_design2
 }

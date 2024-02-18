@@ -370,7 +370,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: red;\n}\nbody h1 {\n  color: blue;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".carousel {\n  background-color: royalblue;\n  padding: 20px;\n}\n.carousel__title {\n  color: pink;\n  font-size: 40px;\n}\n.carousel__subtitle {\n  color: black;\n  font-size: 20px;\n  box-shadow: 3px solid black;\n}\n.carousel__link {\n  color: yellow;\n}\n.carousel__link:hover {\n  color: green;\n}\n\n.btn1 {\n  width: 100px;\n  height: 50px;\n  background-color: yellow;\n  font-size: 20px;\n}\n\n.btn2 {\n  width: 100px;\n  height: 50px;\n  background-color: green;\n  font-size: 20px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

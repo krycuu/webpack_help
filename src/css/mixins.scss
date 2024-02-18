@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+@mixin button_design() {
+    width: 100px;
+    height: 50px;
+    background-color: $btn1-color;
+    font-size: 20px;
+}
+
+@mixin button_design2() {
+    width: 100px;
+    height: 50px;
+    background-color: $btn2-color;
+    font-size: 20px;
+}
